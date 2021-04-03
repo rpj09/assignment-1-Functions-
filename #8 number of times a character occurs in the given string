@@ -1,0 +1,11 @@
+def count(s, c) :
+    res = 0
+    for i in range(len(s)) :
+        if (s[i] == c):
+            res = res + 1
+    return res
+      
+str= input("Enter a string: ")
+c = input("Enter a character: ")
+print ("No. of occurance of the given string is ",end='')
+print(count(str, c))
