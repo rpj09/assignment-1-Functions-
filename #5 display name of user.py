@@ -1,4 +1,4 @@
-#display name of user
+#5.display name of user
 def name(x,y):
     return x+y
 first_name=input("Enter your first name: ")
